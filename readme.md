@@ -1,6 +1,6 @@
-# Prior
+<img width="445" height="441" alt="O" src="https://github.com/user-attachments/assets/04095994-97d3-441d-85e0-c23bfa01d702" />
 
-## Install
+# Prior
 
 - **CMake 3.20+**               — [https://cmake.org/download/](https://cmake.org/download/)
 - **C++17** (MSVC)              — [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/)
@@ -25,8 +25,7 @@ cmake --build build --config Release
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
 │                                                                            │
-│  Rules: 8 triangular faces, 6x6 barycentric stickers per face (288 total). │
-│  Face turns: keys 1-8 (120 degrees); Ctrl+1-6 sets turn depth.             │
+│  Rules: 8 triangular faces, 6x6 barycentric stickers per face (288 total). │           
 │                                                                            │
 │  Goal: each face one uniform hue (8 spaced shades)                         │
 │                                                                            │
