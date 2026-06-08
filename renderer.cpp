@@ -113,8 +113,8 @@ void setupKeyLight() {
 
     const float keyAmb[4] = {0.08f, 0.09f, 0.10f, 1.0f};
     // Lighting: main key brightness (diffuse/specular only; ambient unchanged for shadow depth).
-    const float keyDiff[4] = {1.50f, 1.95f, 2.10f, 1.0f};
-    const float keySpec[4] = {1.70f, 2.10f, 2.25f, 1.0f};
+    const float keyDiff[4] = {3.00f, 2.40f, 2.60f, 1.0f};
+    const float keySpec[4] = {3.00f, 2.55f, 2.75f, 1.0f};
     glLightfv(GL_LIGHT0, GL_AMBIENT, keyAmb);
     glLightfv(GL_LIGHT0, GL_DIFFUSE, keyDiff);
     glLightfv(GL_LIGHT0, GL_SPECULAR, keySpec);
